@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head') %>
+    <title>Jody Lorist</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <img src="<%= picture %>" alt="picture of <%= name %>">
+    <ul>
+        <% projects.forEach(project => { %>
+            <li>
+                <h3><%= project.node.name %></h3>
+                <span>
+                    <a href="<%= project.node.url %>">link to repo</a>
+                    <a href="<%= project.node.homepageUrl %>">homepage link</a>
+                </span>
+            </li>
+        <% }) %>
+    </ul>
+</body>
+</html>

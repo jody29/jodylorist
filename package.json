@@ -1,0 +1,26 @@
+{
+  "name": "jodylorist",
+  "version": "1.0.0",
+  "description": "jody lorist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jody29/jodylorist.git"
+  },
+  "author": "Jody Lorist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jody29/jodylorist/issues"
+  },
+  "homepage": "https://github.com/jody29/jodylorist#readme",
+  "dependencies": {
+    "@octokit/graphql": "^4.8.0",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  }
+}
