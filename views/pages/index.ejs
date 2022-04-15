@@ -5,7 +5,8 @@
     <title>Jody Lorist</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <%- include('../partials/header') %>
+    <main>
     <img src="<%= picture %>" alt="picture of <%= name %>">
     <ul>
         <% projects.forEach(project => { %>
@@ -18,5 +19,6 @@
             </li>
         <% }) %>
     </ul>
+    </main>
 </body>
 </html>

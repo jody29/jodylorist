@@ -5,9 +5,31 @@
 body {
     margin: 0;
     font-family: sans-serif;
+    min-height: 100vh;
+    position: relative;
+}
+
+header,
+main,
+footer {
+    width: calc(100% - 2rem);
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+main img {
+    border-radius: 50%;
+    width: 10rem;
+    object-fit: cover;
+}
+
+main {
+    display: flex;
 }
 
 ul {
     list-style: none;
     padding: 0;
+    margin-left: auto;
 }
